@@ -10,99 +10,496 @@
     <link href="img/walk-talk/SVG/favicon_io (1)/favicon.ico" rel="icon" rel='stylesheet' type='text/css' media='screen'
         href='main.css'>
     <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
-        integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD"
-        crossorigin="anonymous"></script>
+        integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous">
+        </script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:ital@1&display=swap"
+        rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .h-100 {
+            padding-top: 5%;
+        }
+
+        body {
+            background-color: #690f7757;
+        }
+
+        #h1 {
+
+            position: relative;
+            font-size: 2em;
+            padding-left: 7rem;
+            color: #6d037dcc;
+        }
+
+        #title {
+
+            padding: 2rem;
+
+        }
+
+        #spain-banner {
+
+            align-content: space-between;
+
+        }
+
+        .px-5 {
+            padding-right: 3rem !important;
+            padding-left: 0rem !important;
+        }
+
+        #bookBotton {
+
+            color: #6C037D;
+            background-color: #6d037d2c;
+        }
+
+
+
+        #level1 {
+
+            margin-left: 40rem;
+        }
+
+        #svg1 {
+
+            color: #690f7778;
+            align-content: center;
+            padding-bottom: 3rem;
+
+        }
+
+
+        #svg2 {
+
+            color: #690f7778;
+            align-content: center;
+            padding-bottom: 3rem;
+        }
+
+        #svg3{
+            
+            color: #690f7778;
+            align-content: center;
+            padding-bottom: 3rem;
+
+        }
+    </style>
+
 </head>
 
 
 <body>
     <!--NAV BAR-->
     <!--sticky-top-->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top navbar-scroll" style="background-color: #710070;">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top navbar-scroll"
+        style="background-color: #4204559a;">
         <div class="container-fluid">
             <a href="index.html"><img class="img-responsive" src="img/walk-talk/SVG/icon.svg"
                     data-bs-hover-animate="pulse" alt="logo" width="48" height="48">
             </a>
 
-           <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="index.html">Walk&Talk</a>
+                <a class="navbar-brand" href="index.html"></a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  href="courses.html" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false" >
-                        online Courses
-                    </a>
 
-                    <!-- Dropdown menu -->
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html" tabindex="-2">online Courses</a>
+                    </li>
 
-                      <li>
-                        <a class="dropdown-item" href="#">Tagalog</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Darija</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Schwiizerdüütsch</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Boorama</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Spanish</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">French</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">English</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Deutsch</a>
-                      </li>
-                      
-                    </ul>
-                  </li>
+                    <div class="dropdown">
+
+                        <a class="nav-link dropdown-toggle" type="button" id="navbarDropdown" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        </a>
+
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <li><a class="dropdown-item" href="tagalog-course.html">Tagalog</a></li>
+                            <li><a class="dropdown-item" href="darija-course.html">Darija</a></li>
+                            <li><a class="dropdown-item" href="schwiizer-course.html">Schwiizerdüütsch</a></li>
+                            <li><a class="dropdown-item" href="boorama-course.html">Boorama</a></li>
+                            <li><a class="dropdown-item" href="spanish-course.html">Spanish</a></li>
+                            <li> <a class="dropdown-item" href="french-course.html">French</a> </li>
+                            <li><a class="dropdown-item" href="english-course.html">English</a></li>
+                            <li><a class="dropdown-item" href="deutsch-course.html">Deutsch</a></li>
+
+                        </ul>
+                    </div>
 
 
-                  <li class="nav-item">
-                    <a class="nav-link" href="exercises.html" tabindex="-1">free Exercises</a>
-                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exercises.html" tabindex="-1">free Exercises</a>
+                    </li>
                 </ul>
+
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="What would you like to learn?" aria-label="Search">
-                  <button class="btn btn-outline-black" type="submit"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="2em" xmlns="http://www.w3.org/2000/svg">
-                 <path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"> </path>
-                </svg></button>
+                    <input class="form-control me-2" type="search" placeholder="What would you like to learn?"
+                        aria-label="Search">
+                    <button class="btn btn-outline-black" type="submit"><svg stroke="currentColor" fill="currentColor"
+                            stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="2em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                            </path>
+                        </svg></button>
                 </form>
-            </div>      
-           
-            
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Log in</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link ">JOIN FOR FREE</a>
+                    </li>
+                </ul>
+            </div>
+
+
         </div>
     </nav>
 
+
     <!-- HEADER -->
     <header>
+        <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
 
+            </ol>
 
+            <!-- Inner -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/walk-talk/PNG/spanish-banner.png" alt="this is a banner" class="d-block w-100">
+                </div>
+
+            </div>
+        </div>
     </header>
+
+
+
     <!-- BODY -->
     <main>
         <!-- TODO fill in your page here-->
-    
-        
+        <div class="px-4 pt-5 my-5 text-center border-bottom" style="background-color: #690f7721;">
+            <h1 class="display-4 fw-bold" id="h1"
+                style="text-align: left; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                COURSE</h1>
+            <div class="col-lg-6 mx-auto">
+                <h1 class="display-4 fw-bold" id="title"
+                    style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    ¿Hablas español?</h1>
+                <p class="lead mb-4">Spanish is the second most spoken language on earth, second only to Mandarin, and
+                    growing in use every day. This specialization is designed for the beginner who may have no
+                    experience with learning a second language but who wants to be able to read, write and speak Spanish
+                    for personal, travel or business use, or who just wants to learn a second language and build
+                    cultural awareness.
+                </p>
+
+
+                <div class="container px-5">
+                    <img id="spain-banner" src="img/walk-talk/vector/spain.svg" alt="Example image" width="700"
+                        height="500" loading="lazy">
+                </div>
+
+
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" id="bookBotton" class="btn btn-primary btn-lg">Book now</button>
+                </div>
+            </div>
+            <!--    
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+
+             -->
+        </div>
+
+        <div class="px-4 pt-5 my-5  border-bottom" style="background-color: #690f7721; ">
+
+            <div class="col-lg-2" id="level1">
+
+                <div class="px-4 pt-5 my-5 text-center" loading="lazy" style="background-color: #690f7721;">
+                    <svg type="button" id="svg1" href="#" stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
+                        <path id="lvl1" fill-opacity=".3" d="M2 22h20V2z"></path>
+                    </svg>
+                </div>
+
+
+                <div class="px-4 pt-5 my-5 text-center" loading="lazy" style="background-color: #690f7721;">
+                    <svg type="button" id="svg2" href="#" stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
+                        <path id="lvl2" fill-opacity=".3" d="M2 22h20V2z"></path>
+                        <path d="M14 10L2 22h12z"></path>
+                    </svg>
+                </div>
+
+                <div class="px-4 pt-5 my-5 text-center" loading="lazy" style="background-color: #690f7721;">
+                    <svg type="button" id="svg3" href="#" stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 22h20V2z"></path>
+                    </svg>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <!--   
+     <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-lg-7 text-left text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
+
+            </div>
+            <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-light">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                    <hr class="my-4">
+                    <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                </form>
+            </div>
+        </div>    
+-->
+
+
+
+
+        <!--         
+
+<div class="container mt-5" id="container-1">
+            <div class="px-4 py-5 my-5 text-center border-bottom">
+                <h1 class="display-4 fw text-black-50">Dream$ macht deine Träume war</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="#hypotheken"><button type="button" class="btn btn-dark">HYPOTHEKEN</button></a>
+                        <a href="#kredite"><button type="button" class="btn btn-dark">KREDITE</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <img class="d-block mx-auto mt-3 w-100" src="img/familyhouse.jpg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="px-4 my-5 text-center">
+                    <h1 class="display-5 fw text-primary" id="hypotheken">Your Dream hou$e is waiting...</h1>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="m-teaser-product__title text-center">Festhypothek</h4>
+                    <p class="lead mb-4">Einmal fixiert, bleibt der Zinssatz Ihrer Festhypothek während der Laufzeit
+                        gleich. Sie wissen
+                        langfristig, wie Sie finanziell planen können.</p>
+                    <ul class="lead mb-4">
+                        <li>Bei steigenden Zinsen bleibt Ihr Zinssatz unverändert.</li>
+                        <li>Fixieren Sie den Zins bis zwölf Monate vor Beginn der Laufzeit.</li>
+                        <li> die indirekte Amortisation sparen Sie Steuern.</li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
+                            class="m-richtext__price-link">
+                            <button type="button" class="btn btn-dark">More about</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <h4 class="text-center">Variable Hypothek</h4>
+                    <p class="lead mb-4">Der Zinssatz der variablen Hypothek passt sich den aktuellen
+                        Marktverhältnissen an. Sie hat keine
+                        feste Laufzeit und ist kurzfristig kündbar.</p>
+                    <ul class="lead mb-4">
+                        <li>Bei sinkenden Zinsen fällt auch Ihr Hypothekarzinssatz.</li>
+                        <li>Bei steigenden Zinsen können Sie jederzeit in ein anderes Hypothekarmodell wechseln.
+                        </li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
+                            class="m-richtext__price-link">
+                            <button type="button" class="btn btn-dark">More about</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="text-center">Supercard-Hypothek</h4>
+                    <p class="lead mb-4">Übertragen Sie der Bank Dream$ 20 000 Superpunkte und profitieren Sie von
+                        einer attraktiven Zinsvergünstigung von 0,2 % pro Jahr.
+                    </p>
+                    <ul class="lead mb-4">
+                        <li> erhalten einen attraktiven Zinsrabatt für Ihre Superpunkte.</li>
+                        <li>Bei steigenden Zinsen bleibt Ihr Zinssatz unverändert.</li>
+                        <li>Fixieren Sie den Zins bis zwölf Monate vor Beginn der Laufzeit.</li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
+                            class="m-richtext__price-link">
+                            <button type="button" class="btn btn-dark">More about</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <h4 class="text-center">Nachhaltigkeitshypothek</h4>
+                    <p class="lead mb-4">Die Bank Dream$ unterstützt Ihre nachhaltigen Bauvorhaben mit einer
+                        Zinsvergünstigung von 0,25% pro Jahr.</p>
+                    <ul class="lead mb-4">
+                        <li>profitieren während der Laufzeit von einer substanziellen Zinsvergünstigung.</li>
+                        <li>Sie fixieren den Zins bis zwölf Monate vor Beginn der Laufzeit.</li>
+                        <li>Durch die indirekte Amortisation sparen Sie Steuern.</li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
+                            class="m-richtext__price-link">
+                            <button type="button" class="btn btn-dark">More about</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="text-center">DREAM$-Hypothek</h4>
+                    <p class="lead mb-4">Sie möchten am Puls des Geldmarktes sein und von einem sinkenden Zinsumfeld
+                        profitieren? Dann sind Sie mit der DREAM$-Hypothek bestens aufgestellt.</p>
+                    <ul class="lead mb-4">
+                        <li>Sie profitieren von einem sinkenden Zinsumfeld.</li>
+                        <li>Bei steigenden Zinsen können Sie das Hypothekarmodell einfach wechseln.</li>
+                        <li>Der DREAM$ wird täglich veröffentlicht und ist somit transparent.</li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
+                            class="m-richtext__price-link">
+                            <button type="button" class="btn btn-dark">More about</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <h4 class="text-center">Baukredit</h4>
+                    <p class="lead mb-4">Dieser Kontokorrentkredit mit Hypothekardeckung stellt Ihre Liquidität
+                        während der Bauphase sicher. Nach Bauabschluss wandeln wir Ihren Baukredit in eine Hypothek
+                        Ihrer Wahl um.</p>
+                    <ul class="lead mb-4">
+                        <li>Sie bezahlen Zins und Kommissionen nur auf dem tatsächlich beanspruchten Kreditbetrag.
+                        </li>
+                        <li>Die einfache Zahlungsabwicklung entlastet Sie administrativ.</li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
+                            class="m-richtext__price-link">
+                            <button type="button" class="btn btn-dark">More about</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="col-lg-6 mx-auto">
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="#kredite"><button type="button" class="btn btn-dark">KREDITE</button></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <img class="d-block mx-auto mt-3 w-100" src="img/wanderlust.png">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="px-4 my-5 text-center">
+                    <h1 class="display-5 fw text-primary" id="kredite">Financiate your Dream$...</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="text-center">Lombardkredit</h4>
+                    <p class="lead mb-4">Mit dem Lombardkredit verschaffen wir Ihnen Freiheit: Erhalten Sie
+                        finanziellen Spielraum, ohne bestehende Kapitalanlagen aufzugeben.</p>
+                    <ul class="lead mb-4">
+                        <li>Sie erhalten zusätzliche Liquidität, ohne Ihre Vermögenswerte veräussern zu müssen.</li>
+                        <li>Sie profitieren weiterhin von den Erträgen Ihrer Vermögenswerte.</li>
+                        <li>Sie können rasch allfällige Börsenchancen wahrnehmen.</li>
+                    </ul>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
+                            class="m-richtext__price-link">
+                            <button type="button" class="btn btn-dark">More about</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <h4 class="text-center">Privatkredit</h4>
+                    <p class="lead mb-4">Mit cashgate finden Sie den Privatkredit, der zu Ihrem Budget passt.</p>
+                    <ul class="lead mb-4">
+                        <li>Persönliche, kompetente und diskrete Behandlung</li>
+                        <li>Faire Konditionen</li>
+                        <li>Unkomplizierte und rasche Abwicklung</li>
+                    </ul>
+                    <div class="d-grid gap-2 d-lg-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
+                            class="m-richtext__price-link">
+                            <button type="button" class="btn btn-dark">More about</button>
+                        </a>
+                    </div>
+                </div>
+
+
+       -->
+
     </main>
 
 
     <!-- FOOTER -->
-    <footer class="text-center text-lg-start  text-muted" style="background-color: #710070;">
+    <footer class="text-center text-lg-start  text-muted" style="background-color: #4204559a;">
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <!-- Left -->
@@ -119,7 +516,7 @@
                 <a href="https://twitter.com/?lang=en" class="me-4 text-reset">
                     <i class="fab fa-twitter"></i>
                 </a>
-                
+
                 <a href="https://www.instagram.com/" class="me-4 text-reset">
                     <i class="fab fa-instagram"></i>
                 </a>
@@ -136,7 +533,7 @@
 
         <!-- Section: Links  -->
         <section class="">
-            <div class="container text-center text-md-start mt-5">
+            <div class="container text-center text-md-start mt-5" style="color:  rgba(255,255,255,.55);">
                 <!-- Grid row -->
                 <div class="row mt-3">
                     <!-- Grid column -->
@@ -156,7 +553,7 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                            UPCOMING EVENTS IN 
+                            UPCOMING EVENTS
                         </h6>
                         <p>
                             <a href="#!" class="text-reset">Zürich</a>
@@ -179,7 +576,7 @@
                         <h6 class="text-uppercase fw-bold mb-4">
                             Contact US
                         </h6>
-                        <p><i class="fas fa-home me-3"></i>Musterstrasse 21 | Zürich |  CH</p>
+                        <p><i class="fas fa-home me-3"></i>Musterstrasse 21 | Zürich | CH</p>
                         <p>
                             <i class="fas fa-envelope me-3"></i>
                             info@walktalk.com
