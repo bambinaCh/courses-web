@@ -32,7 +32,6 @@
         }
 
         #h1 {
-
             position: relative;
             font-size: 2em;
             padding-left: 7rem;
@@ -40,56 +39,65 @@
         }
 
         #title {
-
             padding: 2rem;
 
         }
 
-        #spain-banner {
-
-            align-content: space-between;
+        #text {
+            text-align: center;
 
         }
 
-        .px-5 {
-            padding-right: 3rem !important;
-            padding-left: 0rem !important;
+        #spain-banner {
+            size: 50em;
+            padding-right: 15rem;
+            margin-right: 0rem;
+            margin-bottom: 0em;
+
+        }
+
+        .fixed-top {
+            position: inherit;
         }
 
         #bookBotton {
-
             color: #6C037D;
             background-color: #6d037d2c;
+            margin-bottom: 2em;
         }
 
 
 
         #level1 {
-
-            margin-left: 40rem;
+            margin-left: 0rem;
+            margin-bottom: 0rem;
         }
 
         #svg1 {
-
             color: #690f7778;
             align-content: center;
-            padding-bottom: 3rem;
+            margin-right: 4rem;
+            margin-bottom: 2rem;
+            margin-left: 5rem;
 
         }
 
 
         #svg2 {
-
             color: #690f7778;
             align-content: center;
-            padding-bottom: 3rem;
+            margin-right: 4rem;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+
         }
 
-        #svg3{
-            
+        #svg3 {
             color: #690f7778;
             align-content: center;
-            padding-bottom: 3rem;
+            margin-right: 4rem;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
 
         }
     </style>
@@ -116,14 +124,16 @@
                 <a class="navbar-brand" href="index.html"></a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="courses.html" tabindex="-2">online Courses</a>
-                    </li>
+                    <!--
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html" tabindex="-2">online Courses</a>
+                </li>
+                -->
 
                     <div class="dropdown">
 
                         <a class="nav-link dropdown-toggle" type="button" id="navbarDropdown" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                            aria-expanded="false">Courses
                         </a>
 
                         <!-- Dropdown menu -->
@@ -141,10 +151,13 @@
                         </ul>
                     </div>
 
+                    <!-- 
+                        <li class="nav-item">
+                            <a class="nav-link" href="exercises.html" tabindex="-1">free Exercises</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="exercises.html" tabindex="-1">free Exercises</a>
-                    </li>
+                     -->
+
                 </ul>
 
                 <form class="d-flex">
@@ -198,7 +211,7 @@
     <!-- BODY -->
     <main>
         <!-- TODO fill in your page here-->
-        <div class="px-4 pt-5 my-5 text-center border-bottom" style="background-color: #690f7721;">
+        <div class="px-4 pt-5 my-5 text-center" style="background-color: #690f7721;">
             <h1 class="display-4 fw-bold" id="h1"
                 style="text-align: left; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                 COURSE</h1>
@@ -206,22 +219,22 @@
                 <h1 class="display-4 fw-bold" id="title"
                     style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                     ¿Hablas español?</h1>
-                <p class="lead mb-4">Spanish is the second most spoken language on earth, second only to Mandarin, and
-                    growing in use every day. This specialization is designed for the beginner who may have no
-                    experience with learning a second language but who wants to be able to read, write and speak Spanish
-                    for personal, travel or business use, or who just wants to learn a second language and build
+                <p class="lead mb-4" id="text">Spanish is the second most spoken language on earth, second only to
+                    Mandarin, and growing in use every day. This specialization is designed for the beginner who may
+                    have no experience with learning a second language but who wants to be able to read, write and speak
+                    Spanish for personal, travel or business use, or who just wants to learn a second language and build
                     cultural awareness.
                 </p>
 
 
-                <div class="container px-5">
-                    <img id="spain-banner" src="img/walk-talk/vector/spain.svg" alt="Example image" width="700"
-                        height="500" loading="lazy">
+                <div class="container px-5 ">
+                    <img id="spain-banner" src="img/walk-talk/vector/spain-banner.svg" alt="Example image" width="500"
+                        height="300">
                 </div>
 
 
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                    <button type="button" id="bookBotton" class="btn btn-primary btn-lg">Book now</button>
+                    <a type="button" id="bookBotton" href="booking-spanish.html" class="btn btn-lg">Book now </a>
                 </div>
             </div>
             <!--    
@@ -230,270 +243,42 @@
              -->
         </div>
 
-        <div class="px-4 pt-5 my-5  border-bottom" style="background-color: #690f7721; ">
+        <div class="px-4 pt-5 my-5" style="background-color: #690f7721; margin-bottom: 2rem;">
 
             <div class="col-lg-2" id="level1">
 
-                <div class="px-4 pt-5 my-5 text-center" loading="lazy" style="background-color: #690f7721;">
-                    <svg type="button" id="svg1" href="#" stroke="currentColor" fill="currentColor" stroke-width="0"
-                        viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
-                        <path id="lvl1" fill-opacity=".3" d="M2 22h20V2z"></path>
-                    </svg>
-                </div>
+                <a href="booking-spanish-lvl1.html">
+                    <div class="px-4 pt-5 my-5" style="background-color: #690f7721;">
+                        <svg type="button" id="svg1" stroke="currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
+                            <path id="lvl1" fill-opacity=".3" d="M2 22h20V2z"></path>
+                        </svg>
+                    </div>
+                </a>
 
 
-                <div class="px-4 pt-5 my-5 text-center" loading="lazy" style="background-color: #690f7721;">
-                    <svg type="button" id="svg2" href="#" stroke="currentColor" fill="currentColor" stroke-width="0"
-                        viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
-                        <path id="lvl2" fill-opacity=".3" d="M2 22h20V2z"></path>
-                        <path d="M14 10L2 22h12z"></path>
-                    </svg>
-                </div>
+                <a href="booking-spanish-lvl2.html">
+                    <div class="px-4 pt-5 my-5 text-center" style="background-color: #690f7721;">
+                        <svg type="button" id="svg2" " stroke=" currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
+                            <path id="lvl2" fill-opacity=".3" d="M2 22h20V2z"></path>
+                            <path d="M14 10L2 22h12z"></path>
+                        </svg>
+                    </div>
+                </a>
 
-                <div class="px-4 pt-5 my-5 text-center" loading="lazy" style="background-color: #690f7721;">
-                    <svg type="button" id="svg3" href="#" stroke="currentColor" fill="currentColor" stroke-width="0"
-                        viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 22h20V2z"></path>
-                    </svg>
-                </div>
+                <a href="booking-spanish-lvl3.html">
+                    <div class="px-4 pt-5 my-5 text-center" style="background-color: #690f7721;">
+                        <svg type="button" id="svg3" stroke="currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 22h20V2z"></path>
+                        </svg>
+                    </div>
+                </a>
 
             </div>
-
-
-
-
-
-
 
         </div>
-
-
-
-
-
-        <!--   
-     <div class="row align-items-center g-lg-5 py-5">
-            <div class="col-lg-7 text-left text-lg-start">
-                <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
-
-            </div>
-            <div class="col-md-10 mx-auto col-lg-5">
-                <form class="p-4 p-md-5 border rounded-3 bg-light">
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Password</label>
-                    </div>
-                    <div class="checkbox mb-3">
-                        <label>
-                            <input type="checkbox" value="remember-me"> Remember me
-                        </label>
-                    </div>
-                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-                    <hr class="my-4">
-                    <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-                </form>
-            </div>
-        </div>    
--->
-
-
-
-
-        <!--         
-
-<div class="container mt-5" id="container-1">
-            <div class="px-4 py-5 my-5 text-center border-bottom">
-                <h1 class="display-4 fw text-black-50">Dream$ macht deine Träume war</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <a href="#hypotheken"><button type="button" class="btn btn-dark">HYPOTHEKEN</button></a>
-                        <a href="#kredite"><button type="button" class="btn btn-dark">KREDITE</button></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <img class="d-block mx-auto mt-3 w-100" src="img/familyhouse.jpg">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="px-4 my-5 text-center">
-                    <h1 class="display-5 fw text-primary" id="hypotheken">Your Dream hou$e is waiting...</h1>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <h4 class="m-teaser-product__title text-center">Festhypothek</h4>
-                    <p class="lead mb-4">Einmal fixiert, bleibt der Zinssatz Ihrer Festhypothek während der Laufzeit
-                        gleich. Sie wissen
-                        langfristig, wie Sie finanziell planen können.</p>
-                    <ul class="lead mb-4">
-                        <li>Bei steigenden Zinsen bleibt Ihr Zinssatz unverändert.</li>
-                        <li>Fixieren Sie den Zins bis zwölf Monate vor Beginn der Laufzeit.</li>
-                        <li> die indirekte Amortisation sparen Sie Steuern.</li>
-                    </ul>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
-                            class="m-richtext__price-link">
-                            <button type="button" class="btn btn-dark">More about</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <h4 class="text-center">Variable Hypothek</h4>
-                    <p class="lead mb-4">Der Zinssatz der variablen Hypothek passt sich den aktuellen
-                        Marktverhältnissen an. Sie hat keine
-                        feste Laufzeit und ist kurzfristig kündbar.</p>
-                    <ul class="lead mb-4">
-                        <li>Bei sinkenden Zinsen fällt auch Ihr Hypothekarzinssatz.</li>
-                        <li>Bei steigenden Zinsen können Sie jederzeit in ein anderes Hypothekarmodell wechseln.
-                        </li>
-                    </ul>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
-                            class="m-richtext__price-link">
-                            <button type="button" class="btn btn-dark">More about</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-sm-6">
-                    <h4 class="text-center">Supercard-Hypothek</h4>
-                    <p class="lead mb-4">Übertragen Sie der Bank Dream$ 20 000 Superpunkte und profitieren Sie von
-                        einer attraktiven Zinsvergünstigung von 0,2 % pro Jahr.
-                    </p>
-                    <ul class="lead mb-4">
-                        <li> erhalten einen attraktiven Zinsrabatt für Ihre Superpunkte.</li>
-                        <li>Bei steigenden Zinsen bleibt Ihr Zinssatz unverändert.</li>
-                        <li>Fixieren Sie den Zins bis zwölf Monate vor Beginn der Laufzeit.</li>
-                    </ul>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
-                            class="m-richtext__price-link">
-                            <button type="button" class="btn btn-dark">More about</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <h4 class="text-center">Nachhaltigkeitshypothek</h4>
-                    <p class="lead mb-4">Die Bank Dream$ unterstützt Ihre nachhaltigen Bauvorhaben mit einer
-                        Zinsvergünstigung von 0,25% pro Jahr.</p>
-                    <ul class="lead mb-4">
-                        <li>profitieren während der Laufzeit von einer substanziellen Zinsvergünstigung.</li>
-                        <li>Sie fixieren den Zins bis zwölf Monate vor Beginn der Laufzeit.</li>
-                        <li>Durch die indirekte Amortisation sparen Sie Steuern.</li>
-                    </ul>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
-                            class="m-richtext__price-link">
-                            <button type="button" class="btn btn-dark">More about</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-sm-6">
-                    <h4 class="text-center">DREAM$-Hypothek</h4>
-                    <p class="lead mb-4">Sie möchten am Puls des Geldmarktes sein und von einem sinkenden Zinsumfeld
-                        profitieren? Dann sind Sie mit der DREAM$-Hypothek bestens aufgestellt.</p>
-                    <ul class="lead mb-4">
-                        <li>Sie profitieren von einem sinkenden Zinsumfeld.</li>
-                        <li>Bei steigenden Zinsen können Sie das Hypothekarmodell einfach wechseln.</li>
-                        <li>Der DREAM$ wird täglich veröffentlicht und ist somit transparent.</li>
-                    </ul>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
-                            class="m-richtext__price-link">
-                            <button type="button" class="btn btn-dark">More about</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <h4 class="text-center">Baukredit</h4>
-                    <p class="lead mb-4">Dieser Kontokorrentkredit mit Hypothekardeckung stellt Ihre Liquidität
-                        während der Bauphase sicher. Nach Bauabschluss wandeln wir Ihren Baukredit in eine Hypothek
-                        Ihrer Wahl um.</p>
-                    <ul class="lead mb-4">
-                        <li>Sie bezahlen Zins und Kommissionen nur auf dem tatsächlich beanspruchten Kreditbetrag.
-                        </li>
-                        <li>Die einfache Zahlungsabwicklung entlastet Sie administrativ.</li>
-                    </ul>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
-                            class="m-richtext__price-link">
-                            <button type="button" class="btn btn-dark">More about</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-            <br>
-
-            <div class="col-lg-6 mx-auto">
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <a href="#kredite"><button type="button" class="btn btn-dark">KREDITE</button></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <img class="d-block mx-auto mt-3 w-100" src="img/wanderlust.png">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="px-4 my-5 text-center">
-                    <h1 class="display-5 fw text-primary" id="kredite">Financiate your Dream$...</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <h4 class="text-center">Lombardkredit</h4>
-                    <p class="lead mb-4">Mit dem Lombardkredit verschaffen wir Ihnen Freiheit: Erhalten Sie
-                        finanziellen Spielraum, ohne bestehende Kapitalanlagen aufzugeben.</p>
-                    <ul class="lead mb-4">
-                        <li>Sie erhalten zusätzliche Liquidität, ohne Ihre Vermögenswerte veräussern zu müssen.</li>
-                        <li>Sie profitieren weiterhin von den Erträgen Ihrer Vermögenswerte.</li>
-                        <li>Sie können rasch allfällige Börsenchancen wahrnehmen.</li>
-                    </ul>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
-                            class="m-richtext__price-link">
-                            <button type="button" class="btn btn-dark">More about</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <h4 class="text-center">Privatkredit</h4>
-                    <p class="lead mb-4">Mit cashgate finden Sie den Privatkredit, der zu Ihrem Budget passt.</p>
-                    <ul class="lead mb-4">
-                        <li>Persönliche, kompetente und diskrete Behandlung</li>
-                        <li>Faire Konditionen</li>
-                        <li>Unkomplizierte und rasche Abwicklung</li>
-                    </ul>
-                    <div class="d-grid gap-2 d-lg-flex justify-content-sm lead mb-4"><a href="https://www.google.com/"
-                            class="m-richtext__price-link">
-                            <button type="button" class="btn btn-dark">More about</button>
-                        </a>
-                    </div>
-                </div>
-
-
-       -->
 
     </main>
 

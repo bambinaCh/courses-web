@@ -25,6 +25,59 @@
             position: relative;
             bottom: 2rem;
         }
+
+        body {
+            background-color: #690f7757;
+        }
+
+        #h1 {
+
+            position: relative;
+            font-size: 2em;
+            padding-left: 7rem;
+            color: #6d037dcc;
+        }
+
+        #title {
+
+            font-size: 2em;
+            padding: 2rem;
+            padding-bottom: 2em;
+
+        }
+
+        #title1 {
+
+            font-size: 3em;
+            padding: 2rem;
+
+        }
+
+        #level1{
+
+            padding: auto;
+        }
+
+        #spain-v {
+
+            align-content: center;
+            padding-bottom: 3rem;
+
+        }
+
+        #schweiz-v{
+
+            align-content: center;
+            padding-bottom: 3rem;
+
+        }
+
+        #philipins-v{
+
+            align-content: center;
+            padding-bottom: 3rem;
+        }
+
     </style>
 
 </head>
@@ -34,7 +87,7 @@
     <!--NAV BAR-->
     <!--sticky-top-->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top navbar-scroll"
-        style="background-color: #710070;">
+        style="background-color: #4204559a;">
         <div class="container-fluid">
             <a href="index.html"><img class="img-responsive" src="img/walk-talk/SVG/icon.svg"
                     data-bs-hover-animate="pulse" alt="logo" width="48" height="48">
@@ -49,14 +102,16 @@
                 <a class="navbar-brand" href="index.html"></a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+                    <!--
                     <li class="nav-item">
                         <a class="nav-link" href="courses.html" tabindex="-2">online Courses</a>
                     </li>
+                    -->
 
                     <div class="dropdown">
-                        
+
                         <a class="nav-link dropdown-toggle" type="button" id="navbarDropdown" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                            aria-expanded="false">Courses
                         </a>
 
                         <!-- Dropdown menu -->
@@ -74,10 +129,14 @@
                         </ul>
                     </div>
 
+                    <!-- 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="exercises.html" tabindex="-1">free Exercises</a>
-                        </li>
+                        <a class="nav-link" href="exercises.html" tabindex="-1">free Exercises</a>
+                     </li>
+
+                     -->
+                   
                 </ul>
 
                 <form class="d-flex">
@@ -116,44 +175,111 @@
             </ol>
 
             <!-- Inner -->
-            <div class="carousel-inner"style="background-color: rgb(0, 0, 0)">
+            <div class="carousel-inner" style="background-color: rgb(0, 0, 0)">
                 <!-- Single item -->
                 <div class="carousel-item active">
                     <video class="h-100" style="width: 100%" playsinline autoplay muted loop>
                         <source src="img/vid/banner-vid-d.mp4" type="video/mp4" />
                     </video>
-                    <div class="mask" >
+                    <div class="mask">
                         <div class="d-flex justify-content-center align-items-center h-100">
                             <div class="text-black text-center">
-                                <a id="joinBotton" class="btn btn-outline-light btn-lg m-2"
-                                    role="button">JOIN FOR FREE
+                                <a href="booking.html" id="joinBotton" class="btn btn-outline-light btn-lg m-2" role="button">JOIN FOR FREE
                                 </a>
 
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </header>
 
+
     <!-- BODY -->
     <main>
         <!-- TODO fill in your page here-->
+        <div class="px-4 pt-5 my-5" style="background-color: #690f7721;">
 
+            <div class="col-lg text-center ">
+                <h1 class="fw-bold" id="title"
+                    style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    Build new languages skills for that “this is my year” feeling with courses and free exercises from
+                    around the world.
+                </h1>
 
+            </div>
+        </div>
+
+        <div class="px-4 pt-5 my-5  " style="background-color: #690f7721; ">
+
+            <div class="col-lg text-center">
+                <h1 class="display-4 fw-bold" id="title1"
+                    style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    Find a Course that fits your life</h1>
+                <p class="lead mb-4">Breakthrough pricing on 100% online courses from our top teachers(me).
+                </p>
+
+                <div class="col-lg-2">
+
+                    <a href="spanish-course.html"><button class="px-4 pt-5 my-5 text-center" id="level1"  loading="lazy"
+                        style="background-color: #690f7721;">
+                        <img id="spain-v"  src="img/walk-talk/vector/spain-vector.svg"   
+                            height="250em" width="250em">
+                        </img>
+                    </button></a>
+
+                    <a href="schwiizer-course.html"><button class="px-4 pt-5 my-5 text-center" id="level1"  loading="lazy"
+                        style="background-color: #690f7721;">
+                        <img id="schweiz-v"  src="img/walk-talk/vector/schweiz-vector.jpg.svg"   
+                            height="250em" width="250em">
+                        </img>
+                    </button></a>
+
+                    <a href="tagalog-course.html"><button class="px-4 pt-5 my-5 text-center" id="level1"  loading="lazy"
+                        style="background-color: #690f7721;">
+                        <img id="philipins-v"  src="img/walk-talk/vector/philipins-vector.svg"   
+                            height="250em" width="250em">
+                        </img>
+                    </button></a>
+
+                </div>    
+
+            </div>
+        </div>
     </main>
+ <!--   
+
+                <div class="px-4 pt-5 my-5 text-center" id="level1" loading="lazy"
+                        style="background-color: #690f7721;">
+                        <img id="spain-v" src="img/walk-talk/vector/spain-vector.svg" type="button"  href="#"
+                            height="250em" width="250em">
+                        <path id="lvl1" fill-opacity=".3" d="M2 22h20V2z"></path>
+                        </img>
+                    </div>
+
+                <div class="px-4 pt-5 my-5 text-center" id="level1" loading="lazy"
+                        style="background-color: #690f7721;">
+                        <img id="spain-v" src="img/walk-talk/vector/spain-vector.svg" type="button"  href="#"
+                            height="250em" width="250em">
+                        <path id="lvl1" fill-opacity=".3" d="M2 22h20V2z"></path>
+                        </img>
+                    </div>
+
+                -->
+
+
+
+
 
 
     <!-- FOOTER -->
-    <footer class="text-center text-lg-start  text-muted" style="background-color: #710070;">
+    <footer class="text-center text-lg-start  text-muted" style="background-color: #4204559a;">
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <!-- Left -->
             <div class="me-5 d-none d-lg-block">
-                <span>Find us on</span>
+                <span>Find us on:</span>
             </div>
             <!-- Left -->
 
@@ -182,7 +308,7 @@
 
         <!-- Section: Links  -->
         <section class="">
-            <div class="container text-center text-md-start mt-5">
+            <div class="container text-center text-md-start mt-5" style="color:  rgba(255,255,255,.55);">
                 <!-- Grid row -->
                 <div class="row mt-3">
                     <!-- Grid column -->
