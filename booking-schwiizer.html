@@ -3,103 +3,72 @@
 
 <head>
     <meta charset='utf-8'>
-    <title>Walk&Talk Tagalog Course</title>
+    <title>Walk&Talk Schwiizerdüütsch Course</title>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <link href="img/walk-talk/SVG/favicon_io (1)/favicon.ico" rel="icon" rel='stylesheet' type='text/css' media='screen'
         href='main.css'>
     <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
-        integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous">
-        </script>
-
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:ital@1&display=swap"
-        rel="stylesheet">
+        integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD"
+        crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <style>
-        .h-100 {
-            padding-top: 5%;
-        }
-
+        
         body {
             background-color: #690f7757;
         }
 
-        #h1 {
-            position: relative;
-            font-size: 2em;
-            padding-left: 7rem;
-            color: #6d037dcc;
-        }
-
-        #title {
-            padding: 2rem;
-
-        }
-
-        #text {
-            text-align: center;
-
-        }
-
-        #spain-banner {
-            size: 50em;
-            padding-right: 15rem;
-            margin-right: 0rem;
-            margin-bottom: 0em;
-
-        }
-
-        .fixed-top {
-            position: inherit;
-        }
-
-        #bookBotton {
+        label{
             color: #6C037D;
-            background-color: #6d037d2c;
-            margin-bottom: 2em;
+            font-weight: 500;
+
+        }
+
+        select{
+
+            width: 22rem;
+            height: 2rem;
+            background-color: #d5b9d8;
+
+        }
+
+        input{
+            width: 22rem;
+            background-color: #d5b9d8;
+            border-color: rgba(0, 0, 0, 0);
         }
 
 
+        input[type=checkbox] {
+            width: 25%;
+            padding: 0px;
+            border: 1px solid #ccc;
+            border-radius: 0px;
+            box-sizing: border-box;
+            background-color: rgba(86, 6, 97, 0.541);
+            
+        }
 
-        #level1 {
+        input[type=reset] {
+
             margin-left: 0rem;
-            margin-bottom: 0rem;
+            background-color: rgba(0, 0, 0, 0);
+            border-color: rgba(0, 0, 0, 0);
+            color: red;
         }
 
-        #svg1 {
-            color: #690f7778;
-            align-content: center;
-            margin-right: 4rem;
-            margin-bottom: 2rem;
-            margin-left: 5rem;
+        input[type=submit] {
 
+            margin-left: 0rem;
+            background-color: #6d037d2c;
+            color: #6C037D;
+          
         }
-
-
-        #svg2 {
-            color: #690f7778;
-            align-content: center;
-            margin-right: 4rem;
-            margin-bottom: 2rem;
-            margin-left: 2rem;
-
-        }
-
-        #svg3 {
-            color: #690f7778;
-            align-content: center;
-            margin-right: 4rem;
-            margin-bottom: 2rem;
-            margin-left: 2rem;
-
-        }
+        
     </style>
 
 </head>
@@ -125,10 +94,10 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <!--
-                <li class="nav-item">
-                    <a class="nav-link" href="courses.html" tabindex="-2">online Courses</a>
-                </li>
-                -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html" tabindex="-2">online Courses</a>
+                    </li>
+                    -->
 
                     <div class="dropdown">
 
@@ -151,12 +120,14 @@
                         </ul>
                     </div>
 
+
                     <!-- 
                         <li class="nav-item">
-                            <a class="nav-link" href="exercises.html" tabindex="-1">free Exercises</a>
-                        </li>
+                        <a class="nav-link" href="exercises.html" tabindex="-1">free Exercises</a>
+                     </li>
 
-                     -->
+                    -->
+
 
                 </ul>
 
@@ -186,7 +157,6 @@
         </div>
     </nav>
 
-
     <!-- HEADER -->
     <header>
         <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
@@ -199,7 +169,7 @@
             <!-- Inner -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/walk-talk/PNG/tagalog-banner.png" alt="this is a banner" class="d-block w-100">
+                    <img src="img/walk-talk/PNG/book-your-schwiizer.png" alt="this is a banner" class="d-block w-100">
                 </div>
 
             </div>
@@ -211,75 +181,83 @@
     <!-- BODY -->
     <main>
         <!-- TODO fill in your page here-->
-        <div class="px-4 pt-5 my-5 text-center" style="background-color: #690f7721;">
-            <h1 class="display-4 fw-bold" id="h1"
-                style="text-align: left; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                COURSE</h1>
-            <div class="col-lg-6 mx-auto">
-                <h1 class="display-4 fw-bold" id="title"
-                    style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                    Nagsasalita ka ba ng Tagalog?</h1>
-                <p class="lead mb-4" id="text">Tagalog is an Austronesian language spoken as a first language by the ethnic Tagalog people, who make up a quarter of the population of the Philippines, and as a second language by the majority. . This specialization is designed for the beginner who may
-                    have no experience with learning a second language but who wants to be able to read, write and speak
-                    Tagalog for personal, travel or business use, or who just wants to learn a second language and build
-                    cultural awareness.
-                </p>
+        <div class="px-4 pt-5 my-5 " style="background-color: #690f7721;">
+            <div class="wrapper">
+                
+                <form action="booking-result.html" id="myForm" name="myForm"  onsubmit="return myFunction()">
+                    
+                    
+                    <label for="course">W&T:</label><br>
+                        <!-- <select id="course" name="course">
+                                <option value="spanish">Spanish</option>
+                                <option value="darija">Darija</option>
+                                <option value="schwiizerdüütsch">Schwiizerdüütsch</option>
+                                <option value="boorama">Boorama</option>
+                            </select> -->
+                    <input type="text" id="course" name="course" placeholder="Schwiizerdüütsch" readonly><br><br>
+                    
+                    
+                    <select id="level" name="level" required>
+                        
+                        <option value="level1">Beginner</option>
+                        <option value="level2">Intermediate</option>
+                        <option value="level2">Advances</option>
+                             
+                    </select> <br><br><br>
+                        
+                    
 
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="first name" required><br><br>
+        
+                    <label for="lname">Surename:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="last name" required><br><br>
+        
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="email" required><br><br>
 
-                <div class="container px-5 ">
-                    <img id="spain-banner" src="img/walk-talk/vector/tagalog-banner.svg" alt="Example image" width="500"
-                        height="300">
-                </div>
-
-
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                    <a type="button" id="bookBotton" href="booking-tagalog.html" class="btn btn-lg">Book now </a>
-                </div>
+                    <label for="pword">Password:</label><br>
+                    <input type="password" id="pword" name="pword" placeholder="password" min="6" max="100" required><br><br>
+                    <input type="checkbox" onclick="hidePassword()">Show Password<br><br>   
+                    
+        
+                    <input type="reset" value="Reset">
+                    <input type="submit" class="btn btn-lg" placeholder="Book now">
+                </form>
+        
             </div>
-            <!--    
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-
-             -->
-        </div>
-
-        <div class="px-4 pt-5 my-5" style="background-color: #690f7721; margin-bottom: 2rem;">
-
-            <div class="col-lg-2" id="level1">
-
-                <a href="booking-spanish-lvl1.html">
-                    <div class="px-4 pt-5 my-5" style="background-color: #690f7721;">
-                        <svg type="button" id="svg1" stroke="currentColor" fill="currentColor" stroke-width="0"
-                            viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
-                            <path id="lvl1" fill-opacity=".3" d="M2 22h20V2z"></path>
-                        </svg>
-                    </div>
-                </a>
-
-
-                <a href="booking-spanish-lvl2.html">
-                    <div class="px-4 pt-5 my-5 text-center" style="background-color: #690f7721;">
-                        <svg type="button" id="svg2" " stroke=" currentColor" fill="currentColor" stroke-width="0"
-                            viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
-                            <path id="lvl2" fill-opacity=".3" d="M2 22h20V2z"></path>
-                            <path d="M14 10L2 22h12z"></path>
-                        </svg>
-                    </div>
-                </a>
-
-                <a href="booking-spanish-lvl3.html">
-                    <div class="px-4 pt-5 my-5 text-center" style="background-color: #690f7721;">
-                        <svg type="button" id="svg3" stroke="currentColor" fill="currentColor" stroke-width="0"
-                            viewBox="0 0 24 24" height="8em" width="8em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 22h20V2z"></path>
-                        </svg>
-                    </div>
-                </a>
-
-            </div>
-
+        
         </div>
 
     </main>
+
+    <script>
+        function myFunction() {
+
+            sessionStorage.setItem("course", document.getElementById("course").value);
+            sessionStorage.setItem("level",document.getElementById("level").value);
+            sessionStorage.setItem("firstName", document.getElementById("fname").value);
+            sessionStorage.setItem("lastName", document.getElementById("lname").value);
+            sessionStorage.setItem("password", document.getElementById("pword").value);
+            sessionStorage.setItem("email", document.getElementById("email").value);
+            sessionStorage.setItem("birthday", document.getElementById("birthday").value);
+            sessionStorage.setItem("phoneNumber", document.getElementById("pnumber").value);
+
+            return true;
+        }
+
+        function hidePassword() {
+
+            var x = document.getElementById("pword");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+
+
+    </script>
 
 
     <!-- FOOTER -->
