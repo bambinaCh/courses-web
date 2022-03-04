@@ -1,4 +1,4 @@
-# courses-web
+# Walk&Talk
 this is my start-up courses website 
 
 
